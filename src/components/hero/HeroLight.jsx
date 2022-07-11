@@ -3,10 +3,10 @@ import Modal from "react-modal";
 import Index from "../about/index";
 
 const heroContent = {
-  heroImage: "img/hero/light.jpg",
-  heroMobileImage: "img-mobile-light",
-  heroTitleName: "lucy milner",
-  heroDesignation: "web designer",
+  heroImage: "img/hero/my_photo.jpg",
+  heroMobileImage: "img-mobile-dark",
+  heroTitleName: "Evans Owusu Ofori",
+  heroDesignation: "Software Engineer",
   heroDescriptions: `I'm a Ghanaian based full stack engineer with various skills in web designer, front‑end developer focused on
   crafting clean & user‑friendly experiences, I am passionate about
   building excellent software that improves the lives of those

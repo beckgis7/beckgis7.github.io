@@ -76,12 +76,12 @@ const index = () => {
               Experience <span>&</span> Education
             </h3>
           </div>
-          <div className="col-lg-6 m-15px-tb">
+          <div className="col-lg-8 m-15px-tb">
             <div className="resume-box">
               <Experience />
             </div>
           </div>
-          <div className="col-lg-6 m-15px-tb">
+          <div className="col-lg-4 m-15px-tb">
             <div className="resume-box">
               <Education />
             </div>

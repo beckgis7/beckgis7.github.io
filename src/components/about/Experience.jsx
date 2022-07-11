@@ -2,32 +2,32 @@ import React from "react";
 
 const experienceContent = [
   {
-    year: "   2018 - Present",
+    year: "January 2022 - Present",
     position: " Senior Software Engineer",
-    compnayName: "Txt Ghana",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    compnayName: "Txt Ghana Limited",
+    // details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
+    //     adipisicing elit`,
   },
   {
-    year: "2013 - 2018",
-    position: " Senior Software Engineer Lead",
-    compnayName: "Toldoit Limited",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    year: "March 2019 – December 2021",
+    position: " Senior Software Engineer",
+    compnayName: "ToldoIT Limited",
+    // details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
+    //     elit, tempor incididunt`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "June 2018 – September 2018",
+    position: "IT Support Officer/ Graphic Designer ",
+    compnayName: "Addvalue Multimedia Limited",
+    // details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
+    //     elit, sed do eiusmod tempor duntt`,
   },
   {
-    year: "2005 - 2013",
-    position: "Consultant",
-    compnayName: "Videohive",
-    details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-        elit, sed do eiusmod tempor duntt`,
+    year: "October 2016 – January 2018",
+    position: "Lead Web Developer",
+    compnayName: "Code Ghana Limited",
+    // details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
+    //     elit, sed do eiusmod tempor duntt`,
   },
 ];
 
@@ -40,7 +40,7 @@ const Experience = () => {
             <i className="fa fa-briefcase"></i>
           </div>
           <span className="time open-sans-font text-uppercase">{val.year}</span>
-          <h5 className="poppins-font text-uppercase">
+          <h5 className="poppins-font">
             {val.position}
             <span className="place open-sans-font">{val.compnayName}</span>
           </h5>

@@ -3,25 +3,18 @@ import React from "react";
 const educationContent = [
   {
     year: "2014",
-    degree: "HND IN COMPUTER SCIENCE",
-    institute: "KOFORIDUA TECHNICAL UNIVERSITY",
-    details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
-        adipisicing elit`,
+    degree: "Higher National Diploma in Computer Science (HND)",
+    // institute: "Koforidua Technical University",
+    // details: `  Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore
+    //     adipisicing elit`,
   },
   {
     year: "2009",
-    degree: "MASTER DEGREE",
-    institute: "KIEV UNIVERSITY",
-    details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
-        elit, tempor incididunt`,
+    degree: "West African Senior Secondary Certificate Examination (WASSCE)",
+    // institute: "",
+    // details: `Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol
+    //     elit, tempor incididunt`,
   },
-  // {
-  //   year: "2009",
-  //   degree: "BACHELOR DEGREE ",
-  //   institute: "TUNIS HIGH SCHOOL",
-  //   details: `Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur
-  //       elit, sed do eiusmod tempor duntt`,
-  // },
 ];
 
 const Education = () => {
@@ -30,7 +23,7 @@ const Education = () => {
       {educationContent.map((val, i) => (
         <li key={i}>
           <div className="icon">
-            <i className="fa fa-briefcase"></i>
+            <i className="fa fa-book"></i>
           </div>
           <span className="time open-sans-font text-uppercase">{val.year}</span>
           <h5 className="poppins-font text-uppercase">

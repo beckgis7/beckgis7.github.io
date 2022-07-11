@@ -7,7 +7,7 @@ const personalInfoContent = [
   { meta: "Nationality", metaInfo: "Ghanaian" },
   // { meta: "Freelance", metaInfo: "Available" },
   { meta: "Address", metaInfo: "Adentan" },
-  { meta: "phone", metaInfo: "++233243112825" },
+  { meta: "phone", metaInfo: "+233 24 311 2825" },
   { meta: "Email", metaInfo: "vansofori07@yahoo.com" },
   { meta: "Skype", metaInfo: "live:vansofori07" },
   { meta: "langages", metaInfo: "English" },
